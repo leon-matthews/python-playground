@@ -11,7 +11,7 @@ import readline
 # Readline takes over the console, so lets debug to a file instead.
 logging.basicConfig(
     format='%(message)s',
-    filename='readline_example.log',
+    filename='readline_completion.log',
     filemode='w',
     level=logging.DEBUG,
 )
@@ -42,9 +42,14 @@ def input_loop(completer: Completer) -> None:
         None
     """
     while True:
-        line = input('input> ')
+        try:
+            line = input('input> ')
+        except EOFError:
+            break
+
         if line.casefold() in ('quit', 'exit'):
             break
+
         print(f">>> {line!r}")
 
         # Add new words to completer, just because.
