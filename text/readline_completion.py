@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
 Use the standard library's readline module to provide word completion.
+
+Full test coverage and up-to-date version of this class can be
+found in ``pylox`` project.
 """
 
 from __future__ import annotations
