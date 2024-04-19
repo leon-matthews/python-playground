@@ -36,7 +36,6 @@ def reservoir_samples(sequence, num_samples=10):
 
 if __name__ == '__main__':
     import sys
-    import timeit
 
     # Check arguments
     if len(sys.argv) == 2:

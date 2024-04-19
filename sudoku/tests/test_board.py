@@ -24,13 +24,11 @@ Tests in this module are using the board data `basic.clues`::
     ╚═══╧═══╧═══╩═══╧═══╧═══╩═══╧═══╧═══╝
 
 """
-from pprint import pprint as pp
 import re
-from unittest import skip, TestCase
+from unittest import TestCase
 
 from ..board import Board
 from ..exceptions import InvalidBoard, InvalidMove
-from ..render import draw_unicode
 
 from .data import basic
 
@@ -43,7 +41,7 @@ class TestSetValue(TestCase):
         """
         A `ValueError` will be raised if the value to be set is too large.
         """
-        message = re.escape(f"Value must be an integer between 1 and 9")
+        message = re.escape("Value must be an integer between 1 and 9")
         with self.assertRaisesRegex(ValueError, message):
             self.board.set_value(0, 2, 10)
 

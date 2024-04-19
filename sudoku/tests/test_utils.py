@@ -1,7 +1,7 @@
 
-from unittest import skip, TestCase
+from unittest import TestCase
 
-from sudoku import board, utils
+from sudoku import utils
 
 from .data import basic, strings
 

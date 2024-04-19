@@ -1,5 +1,4 @@
 
-import math
 
 
 def draw_ascii(board):

@@ -1,5 +1,4 @@
 
-from pprint import pprint as pp
 from unittest import TestCase
 
 from ..bitarray import BitArray

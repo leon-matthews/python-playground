@@ -1,7 +1,7 @@
 
 from unittest import skip, TestCase
 
-from sudoku.board import Board, PencilMarked
+from sudoku.board import PencilMarked
 from sudoku import examples
 from sudoku.solvers import single_candidates, single_candidates_all
 from sudoku import utils

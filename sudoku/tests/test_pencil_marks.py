@@ -3,7 +3,6 @@ from unittest import skip, TestCase
 
 from sudoku.board import Board, PencilMarked
 from sudoku import exceptions
-from sudoku.render import draw_unicode
 
 from .data import basic
 

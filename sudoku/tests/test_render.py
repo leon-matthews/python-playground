@@ -1,5 +1,5 @@
 
-from unittest import skip, TestCase
+from unittest import TestCase
 
 from sudoku.board import Board
 from sudoku.render import draw_ascii, draw_unicode
