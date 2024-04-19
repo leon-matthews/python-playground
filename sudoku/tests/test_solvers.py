@@ -22,3 +22,4 @@ class TestSingleCandidates(TestCase):
         puzzle = PencilMarked(clues)
         num_solved = single_candidates_all(puzzle)
         self.assertEqual(puzzle.is_solved(), True)
+        self.assertEqual(num_solved, 1)

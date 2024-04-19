@@ -2,7 +2,7 @@
 from math import sqrt
 from pprint import pprint as pp
 
-from .exceptions import InvalidBoard, InvalidMove
+from .exceptions import InvalidBoard, InvalidMove, SudokuError
 from .render import draw_ascii
 
 
@@ -134,7 +134,7 @@ class Board:
         expected = self.width ** 2
         if len(data) != expected:
             message = f"Expecting {expected} numbers, {len(data)} found."
-            raise exceptions.SudokuError(message)
+            raise SudokuError(message)
 
     def _get_box(self, index):
         """
@@ -278,7 +278,7 @@ class PencilMarked(Board):
         print()
         pp(self._candidates)
 
-        excluded = self.boxes[box] | self.rows[row] | self.columns[column]
+        excluded = None# self.boxes[box] | self.rows[row] | self.columns[column]
         return list(set(range(1, 10)) ^ excluded)
 
         for row in range(self.width):

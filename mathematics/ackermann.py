@@ -29,7 +29,8 @@ def ackermann(m, n):
     n_ = ackermann(m, n-1)
     answer = ackermann(m-1, n_)
     return answer
-ackermann.num_calls = 0
+
+ackermann.num_calls: int = 0
 
 
 def solvable() -> Iterable[tuple[int, int]]:
