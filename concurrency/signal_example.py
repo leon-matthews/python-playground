@@ -3,9 +3,7 @@ Play around with the standard-library OS signal module.
 """
 
 import os
-from pprint import pprint as pp
 import signal
-import time
 
 
 def receive_alarm(signum, stack):
