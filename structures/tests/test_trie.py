@@ -54,4 +54,4 @@ class TestTrie(TestCase):
         self.assertEqual(words, [])
 
         words = trie.prefixes('apples')
-        dump(words)
+        pp(words)

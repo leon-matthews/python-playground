@@ -6,7 +6,6 @@ See:
     https://psutil.readthedocs.io/en/latest/
 """
 
-from pprint import pprint as pp
 import resource
 
 

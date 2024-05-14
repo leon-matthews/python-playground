@@ -11,7 +11,7 @@ See:
 from pathlib import Path
 from pprint import pprint as pp
 import sys
-from typing import Any, Iterable
+from typing import Iterable
 
 
 from pymediainfo import MediaInfo, Track
@@ -55,6 +55,8 @@ def main(root: Path) -> None:
     else:
         for path in find_files(root):
             info = mediainfo(path)
+
+    pp(info)
 
 
 if __name__ == '__main__':

@@ -9,7 +9,6 @@ attributes is guaranteed to be present and populated for class objects:
 https://docs.python.org/3/howto/annotations.html
 """
 
-from pprint import pprint as pp
 from unittest import main, TestCase
 
 

@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-import collections
-from pprint import pformat
-from pprint import pprint as pp
-import re
+from pprint import pformat, pprint as pp
 import sys
 from typing import Any
 
@@ -75,7 +72,7 @@ class Trie:
                 if None in tree[letter]:
                     yield word
                 else:
-                    dump(tree[letter])
+                    pp(tree[letter])
                     for x in generate_words(word, tree[letter]):
                         yield x
 
@@ -154,6 +151,7 @@ class Trie:
         trie = self._trie
         for letter in trie:
             children = trie[letter]
+            lines.append(children)
 
         return '\n'.join(lines)
 
