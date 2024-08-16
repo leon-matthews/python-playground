@@ -99,7 +99,7 @@ def snakes_and_ladders():
 
 
 if __name__ == '__main__':
-    num_games = int(10e6)
+    num_games = int(5e6)
     start = time.time()
     for _ in range(num_games):
         game = snakes_and_ladders()
