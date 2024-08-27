@@ -1,9 +1,19 @@
 #! /usr/bin/env python3
 
 """
-Test performance of SQLite placeholder styles.
+Compare performance of SQLite placeholder styles.
 
-https://docs.python.org/3/library/sqlite3.html
+An SQL statement may use one of two kinds of placeholders: question marks
+(qmark style) or named placeholders (named style), as below.
+
+    INSERT INTO people VALUES (?, ?, ?, ?);
+    INSERT INTO people VALUES (:first_name, :last_name, :born, :died);
+
+The question this experiment answers is what is the price we pay for the
+safety and convenience of the latter syntax.
+
+See:
+    https://docs.python.org/3/library/sqlite3.html#sqlite3-placeholders
 """
 
 import datetime
