@@ -33,7 +33,7 @@ from collections import defaultdict
 from pprint import pprint as pp
 import sys
 
-from matplotlib import pyplot
+from matplotlib import pyplot, ticker
 
 
 DATA = (
@@ -88,8 +88,9 @@ def plot(data):
     axes.spines["left"].set_visible(False)
     axes.spines["top"].set_visible(False)
 
-    axes.set_xlabel("Python Version")
-    axes.set_ylabel("Games per second")
+    # ~ axes.set_xlabel("Python Version")
+    # ~ axes.set_ylabel("Games per second")
+    axes.get_yaxis().set_major_formatter(ticker.StrMethodFormatter('{x:,.0f}'))
 
     # Python v2.7
     # ~ axes.plot([x[0], x[-1]], [py27_performance, py27_performance], label="Baseline")
@@ -99,7 +100,7 @@ def plot(data):
 
     # Line to where we caught up with v2.7 performance
     axes.annotate(
-        "v3.7 finally beats v2.7",
+        "Python 2.7",
         xy=(2, py27_performance + 5_000),
     )
     axes.axhline(
@@ -112,7 +113,7 @@ def plot(data):
 
     # Line to where we doubled v2.7 performance
     axes.annotate(
-        "v3.12 twice the speed of v2.7",
+        "Twice Python 2.7",
         xy=(2, py27_performance * 2 + 5_000),
     )
     axes.axhline(
@@ -124,7 +125,8 @@ def plot(data):
     )
 
     # ~ axes.set_title("Python Performance by Version")
-    pyplot.savefig("by_version.png", dpi=150)
+    #pyplot.savefig("by_version.png", dpi=150)
+    pyplot.show()
 
 
 def prepare_data():
