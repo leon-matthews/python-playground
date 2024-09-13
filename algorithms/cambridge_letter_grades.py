@@ -6,7 +6,6 @@ Interesting use of the bisect module - but we must be careful to use
 """
 
 import bisect
-from pprint import pprint as pp
 import sys
 import unittest
 

@@ -3,13 +3,10 @@ Command-line interface.
 """
 
 import argparse
-import ipaddress
 import logging
 from pprint import pprint as pp
 
-from . import db
 from .csv import NamedTupleReader
-from . import utils
 
 
 class Main:

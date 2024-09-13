@@ -1,5 +1,4 @@
 
-import math
 
 
 def power(base: int, exponent: int) -> int:

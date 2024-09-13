@@ -9,7 +9,7 @@ See:
     https://doc.qt.io/qtforpython-6/tutorials/index.html
 """
 import sys
-from PySide6.QtCore import Qt, Slot
+from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QApplication, QPushButton
 
 

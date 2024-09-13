@@ -3,7 +3,6 @@ The 'hello world' of asyncio coroutines and tasks.
 """
 
 import asyncio
-from pprint import pprint as pp
 
 
 async def count() -> None:

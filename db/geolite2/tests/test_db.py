@@ -1,10 +1,6 @@
 
-from ipaddress import IPv4Network
-from pprint import pprint as pp
-from unittest import TestCase
 
 from geolite2 import db
-from geolite2.utils import calculate_range
 
 from .data import create_block_ipv4, DataTestCase, TransactionTestCase
 

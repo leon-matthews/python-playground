@@ -27,12 +27,8 @@ See:
     https://lmdb.readthedocs.io/en/release/
 """
 
-from contextlib import contextmanager
-import gzip
 import hashlib
 import logging
-import math
-import os
 from pathlib import Path
 import time
 from typing import Iterable

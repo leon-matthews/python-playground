@@ -30,7 +30,6 @@ through these functions and are only implicitly present in the background.
 """
 
 from collections import defaultdict
-from pprint import pprint as pp
 import sys
 
 from matplotlib import pyplot, ticker

@@ -1,5 +1,4 @@
 
-from pprint import pprint as pp
 
 from geolite2.db import BlockIP4, City, Country
 

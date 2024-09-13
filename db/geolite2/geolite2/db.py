@@ -2,11 +2,10 @@
 from collections import namedtuple
 from ipaddress import IPv4Address
 import logging
-from pprint import pprint as pp
 
 from sqlalchemy import Column, create_engine, Float, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import joinedload, relationship, sessionmaker
+from sqlalchemy.orm import relationship, sessionmaker
 
 
 Base = declarative_base()

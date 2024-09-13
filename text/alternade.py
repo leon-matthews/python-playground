@@ -19,7 +19,7 @@ import argparse
 from pathlib import Path
 import sys
 import time
-from typing import Dict, List, NewType, Set, Tuple
+from typing import Dict, List, Set, Tuple
 
 
 Alternades = Dict[str, Tuple[str, str]]

@@ -1,6 +1,5 @@
 
 from ipaddress import IPv4Network
-from pprint import pprint as pp
 from unittest import TestCase
 
 from sqlalchemy import create_engine, event

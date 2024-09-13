@@ -3,7 +3,6 @@ Use a mixture of synchronous and asynchronous functions together.
 """
 
 import asyncio
-from pprint import pprint as pp
 import time
 
 

@@ -2,7 +2,6 @@
 import collections
 import csv
 import logging
-from pprint import pprint as pp
 import re
 
 
@@ -92,7 +91,7 @@ class NamedTupleReader:
         data = [datum.strip() for datum in data]
         try:
             row = self.namedtuple(line, *data)
-        except TypeError as e:
+        except TypeError:
             message = f"Line {line:,}: Expected {self.headings!r}, found {data!r}"
             raise TypeError(message) from None
         return row
