@@ -76,7 +76,7 @@ def tokenise(string) -> list[Token]:
     Returns:
     """
     # Empty string
-    tokens = []
+    tokens: list[Token] = []
     if not string:
         return tokens
 
@@ -87,8 +87,8 @@ def tokenise(string) -> list[Token]:
     current += 1
     length = 1
 
-    def longest_match(current) -> (int, str):
-        pass
+    def longest_match(current) -> tuple[int, str]:
+        return (0, "")
         # ~ while current < len(string):
             # ~ length = 1
             # ~ word = string[current:current+length]
@@ -104,7 +104,6 @@ def tokenise(string) -> list[Token]:
     tokens.append(Token(current, length, word))
 
     return tokens
-
 
 
 def untokenise(tokens: list[Token]) -> str:
@@ -123,6 +122,6 @@ def untokenise(tokens: list[Token]) -> str:
         return string
 
     for token in tokens:
-        string += token.literal
+        string = f"{string}{token.literal}"
 
     return string

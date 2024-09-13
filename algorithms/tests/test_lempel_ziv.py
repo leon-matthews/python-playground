@@ -50,7 +50,7 @@ class TokeniseTest(TestCase):
 
 class UntokeniseTest(TestCase):
     def test_empty(self) -> None:
-        tokens = []
+        tokens: list[Token] = []
         string = untokenise(tokens)
         self.assertEqual(string, '')
 
