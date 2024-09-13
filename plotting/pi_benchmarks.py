@@ -39,7 +39,6 @@ def plot(data):
     x = data['version']
     y = data['single_core']
     y2 = data['multi_core']
-    colours = RPI_COLOURS
 
     # Plot!
     axes.bar(x, y2, color=RPI_COLOURS[1], label="Multi-core")
