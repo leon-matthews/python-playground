@@ -44,7 +44,7 @@ def replace(dog: str, message: str) -> str:
     return dog
 
 
-def main(message: str, path: Path|None = None):
+def main(message: str, path: Path|None = None) -> None:
     if path is None:
         path = ASCII_ART_FILE
 
@@ -60,7 +60,5 @@ if __name__ == '__main__':
     elif len(sys.argv) == 2:
         main(sys.argv[1])
     else:
-        print(f"usage: {sys.argv[0]} [MESSAGE]", file=sys.stderr);
+        print(f"usage: {sys.argv[0]} [MESSAGE]", file=sys.stderr)
         sys.exit(1)
-
-
