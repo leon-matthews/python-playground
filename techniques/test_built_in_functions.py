@@ -7,6 +7,7 @@ http://docs.python.org/3/library/functions.html
 """
 
 from decimal import Decimal
+from pprint import pprint as pp
 from unittest import skip, TestCase
 
 
@@ -455,17 +456,17 @@ class IntTest(TestCase):
         i = int(3)
         self.assertEqual(i, 3)
 
-        # Floats always rounded towards zero
+    def test_round_towards_zero(self) -> None:
         i = int(3.8)
         self.assertEqual(i, 3)
         i = int(-3.8)
         self.assertEqual(i, -3)
 
-        # Try strings
+    def test_easy_strings(self) -> None:
         i = int('3')
         self.assertEqual(i, 3)
 
-        # Optional base (only when using strings)
+    def test_strings_in_different_bases(self) -> None:
         s = '101'
         i = int(s)
         self.assertEqual(i, 101)
@@ -474,7 +475,7 @@ class IntTest(TestCase):
         i = int('1001001100101100000001011010010', 2)
         self.assertEqual(i, 1234567890)
 
-        # Different literals
+    def test_literal_flavours(self) -> None:
         i = 0b011
         self.assertEqual(i, 3)
         i = 0o11
@@ -484,17 +485,17 @@ class IntTest(TestCase):
         i = 0x11
         self.assertEqual(i, 17)
 
-        # White space okay
+    def test_whitespace_strings(self) -> None:
         i = int('   3   ')
         self.assertEqual(i, 3)
 
-        # Can't parse float string into int
+    def test_fail_float_strings(self) -> None:
         self.assertRaises(ValueError, int, '3.0')
 
-        # Other non-numeric prefix not okay
+    def test_non_whitepace_prefix(self) -> None:
         self.assertRaises(ValueError, int, '$3')
 
-        # Other non-numeric suffixes not okay either
+    def test_non_whitepace_suffix(self) -> None:
         self.assertRaises(ValueError, int, '3 dollars is the price')
 
 
@@ -514,14 +515,93 @@ class IsInstanceTest(TestCase):
         self.assertTrue(isinstance(s, str))
 
 
+class LenTest(TestCase):
+    def test_valid_types(self) -> None:
+        self.assertEqual(len("Banana"), 6)
+        self.assertEqual(len({1, 1, 2, 3, 5, 8, 13}), 6)
+
+
+class ListTest(TestCase):
+    def test_iterable_to_list(self) -> None:
+        self.assertEqual(list("Banana"), ['B', 'a', 'n', 'a', 'n', 'a'])
+
+
+class LocalsTest(TestCase):
+    def test_locals(self) -> None:
+        fruit = 'Banana'
+        self.assertEqual(locals().keys(), {'self', 'fruit'})
+
+
+class MapTest(TestCase):
+    def test_map(self) -> None:
+        def power_of_two(n: int) -> int:
+            return 2 ** n
+
+        numbers = (1, 2, 3, 4, 5, 6, 7, 8)
+        powers = list(map(power_of_two, numbers))
+        self.assertEqual(powers, [2, 4, 8, 16, 32, 64, 128, 256])
+
+
+class MaxTest(TestCase):
+    def test_max(self) -> None:
+        numbers = (11, 12, 31, 14, 15, 16, 17, 18)
+        self.assertEqual(max(numbers), 31)
+
+    def test_max_keyed(self) -> None:
+        fruit = [
+            'apple',
+            'BANANA',
+            'Cantaloupe',
+        ]
+        self.assertEqual(max(fruit), 'apple')
+        self.assertEqual(max(fruit, key=str.casefold), 'Cantaloupe')
+
+
+class MinTest(TestCase):
+    def test_min(self) -> None:
+        numbers = (11, 12, 31, 14, 15, 16, 17, 18)
+        self.assertEqual(min(numbers), 11)
+
+    def test_min_keyed(self) -> None:
+        fruit = [
+            'apple',
+            'BANANA',
+            'Cantaloupe',
+        ]
+        self.assertEqual(min(fruit), 'BANANA')
+        self.assertEqual(min(fruit, key=str.casefold), 'apple')
+
+
+class OctTest(TestCase):
+    def test_oct(self) -> None:
+        self.assertEqual(oct(256),  "0o400")
+
+    def test_fail_oct(self) -> None:
+        with self.assertRaises(TypeError):
+            oct('256')
+
+
+class OrdTest(TestCase):
+    def test_ord(self) -> None:
+        self.assertEqual(ord('A'), 65)
+        self.assertEqual(ord('a'), 97)
+        self.assertEqual(ord('€'), 8_364)
+        self.assertEqual(ord('🐍'), 128_013)
+
+
 class PowTest(TestCase):
     def test_pow(self):
         """
-        Raise the first argument to the power of the second, modulo the third.
-        pow(x, y[, z])
+        Raise the first argument to the power of the second.
         """
         i = pow(2, 15)
         self.assertEqual(i, 32768)
 
-        i = pow(2, 15, 10)
-        self.assertEqual(i, 8)
+    def test_pow_modulo(self) -> None:
+        """
+        Third argument calculates the modulo efficiently.
+        """
+        i = pow(2, 1024, 10)
+        i2 = (2 ** 1024) % 10
+        self.assertEqual(i, 6)
+        self.assertEqual(i2, 6)
