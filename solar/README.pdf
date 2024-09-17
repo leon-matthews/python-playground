@@ -1,0 +1,487 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Outlines 9 0 R /PageLabels 15 0 R /PageMode /UseNone /Pages 13 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author () /CreationDate (D:20201106114939+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201106114939+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (GeoSol) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 3 /First 10 0 R /Last 12 0 R /Type /Outlines
+>>
+endobj
+10 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 677.0236 0 ] /Next 11 0 R /Parent 9 0 R /Title (Background)
+>>
+endobj
+11 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 458.0236 0 ] /Next 12 0 R /Parent 9 0 R /Prev 10 0 R /Title (Solar Power)
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 341.0236 0 ] /Parent 9 0 R /Prev 11 0 R /Title (Subprocess control)
+>>
+endobj
+13 0 obj
+<<
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
+>>
+endobj
+14 0 obj
+<<
+/Length 9673
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 199.9349 0 Td (GeoSol) Tj T* -199.9349 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Save electricity by running CPU intensive jobs only during sunlight hours.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 689.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.160697 Tw (Combines a city to location database, a sunrise/sunset calculator, and a process supervisor to save) Tj T* 0 Tw (electricity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 602.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .188735 Tw (Modern CPUs are becoming better and better and only drawing power when they are actually doing work.) Tj T* 0 Tw .163318 Tw (Clock speeds and even core voltages are kept low unless needed. Conversely, when running heavy tasks) Tj T* 0 Tw 1.351412 Tw (such as processing video, rendering 3D graphics, or running simulations the system's power draw can) Tj T* 0 Tw (increase dramatically.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 572.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .462651 Tw (For example, look at the whole-system power draw for two high-end desktop processors as of November) Tj T* 0 Tw (2020:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 566.0236 cm
+Q
+q
+1 0 0 1 62.69291 512.0236 cm
+1 1 1 rg
+n 0 54 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -18 re f*
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+.960784 .960784 .862745 rg
+n 0 54 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 144.6299 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 61.75996 0 Td (CPU) Tj T* -61.75996 0 Td ET
+Q
+Q
+q
+1 0 0 1 162.6299 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 40.20997 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 12.04499 0 Td (Idle) Tj T* -12.04499 0 Td ET
+Q
+Q
+q
+1 0 0 1 214.8399 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 105.4724 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 29.11122 0 Td (100% load) Tj T* -29.11122 0 Td ET
+Q
+Q
+q
+1 0 0 1 332.3123 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 131.5774 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 45.78871 0 Td (Multiplier) Tj T* -45.78871 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AMD 5950X) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.6299 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (64W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 214.8399 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (204W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.3123 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (x3.2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Intel 10900K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.6299 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (70W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 214.8399 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (336W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 332.3123 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (x4.8) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 36 m 469.8898 36 l S
+n 0 18 m 469.8898 18 l S
+n 156.6299 0 m 156.6299 54 l S
+n 208.8399 0 m 208.8399 54 l S
+n 326.3123 0 m 326.3123 54 l S
+n 0 54 m 469.8898 54 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 54 l S
+n 469.8898 0 m 469.8898 54 l S
+Q
+Q
+q
+1 0 0 1 62.69291 512.0236 cm
+Q
+q
+1 0 0 1 62.69291 470.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .261654 Tw (The AMD system uses more than three times the power under load, while the Intel uses almost five times) Tj T* 0 Tw .26332 Tw (more. Clearly it makes sense to try and run these high-CPU jobs when electricity is available from a more) Tj T* 0 Tw (renewable source.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 437.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Solar Power) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 383.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.035777 Tw (I have an array of solar panels on the roof of my home \(and office\). During daylight hours they provide) Tj T* 0 Tw .816988 Tw (more power than I can use. The excess is sold to the grid at a considerable discount. I buy power back) Tj T* 0 Tw .660542 Tw (from the grid during the night. Therefore I try and run dish and clothes washers, hot water heaters, etc...) Tj T* 0 Tw (during the day whereever possible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 353.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.005251 Tw (Another solution to the problem would be to invest in a battery storage system. I have chosen to buy a) Tj T* 0 Tw (bigger solar array instead, as I think it is more efficient -- at the society level.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 320.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Subprocess control) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 302.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Stop long-running computations at dusk, then resume them at dawn \(or a few hours before or after each\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 124.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 168 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 60 12 re f*
+.960784 .960784 .862745 rg
+n 0 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 60 12 re f*
+.960784 .960784 .862745 rg
+n 84 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 96 30 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 132 96 48 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 96 66 12 re f*
+.960784 .960784 .862745 rg
+n 294 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 84 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 72 30 12 re f*
+.960784 .960784 .862745 rg
+n 30 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 60 66 12 re f*
+.960784 .960784 .862745 rg
+n 78 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 120 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 30 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 24 66 12 re f*
+.960784 .960784 .862745 rg
+n 78 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 120 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 12 12 re f*
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (subprocess) Tj /F4 10 Tf 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (signal) Tj /F4 10 Tf 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (time) Tj /F4 10 Tf 0 0 0 rg  T*  T* (p) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (subprocess) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Popen) Tj (\([) Tj .729412 .129412 .129412 rg ('mpg123') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('-C') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('music.mp3') Tj 0 0 0 rg (]\)) Tj  T* (time) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (sleep) Tj (\() Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (\)) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('stop') Tj 0 0 0 rg (\)) Tj  T* (p) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (send_signal) Tj (\() Tj (signal) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (SIGSTOP) Tj (\)) Tj  T* (time) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (sleep) Tj (\() Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (\)) Tj  T* /F3 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('continue') Tj 0 0 0 rg (\)) Tj  T* (p) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (send_signal) Tj (\() Tj (signal) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (SIGCONT) Tj (\)) Tj  T* (time) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (sleep) Tj (\() Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (\)) Tj  T* (p) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (terminate) Tj (\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+15 0 obj
+<<
+/Nums [ 0 16 0 R ]
+>>
+endobj
+16 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000353 00000 n 
+0000000463 00000 n 
+0000000568 00000 n 
+0000000773 00000 n 
+0000000877 00000 n 
+0000001140 00000 n 
+0000001213 00000 n 
+0000001323 00000 n 
+0000001447 00000 n 
+0000001565 00000 n 
+0000001625 00000 n 
+0000011350 00000 n 
+0000011391 00000 n 
+trailer
+<<
+/ID 
+[<46035f2c46e7e20ab850cf708c04af57><46035f2c46e7e20ab850cf708c04af57>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 17
+>>
+startxref
+11425
+%%EOF
