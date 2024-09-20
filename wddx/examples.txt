@@ -1,0 +1,89 @@
+
+=============
+WDDX Examples
+=============
+
+WDDX was an XML data serialisation format created in 1998, initially for the
+ColdFusion server environment, then open-sourced.  It has faded into history
+now, having lost mind-share to JSON, etc... PHP had early support for
+the format, which is where my story began.
+
+
+
+
+http://nz.php.net/manual/en/wddx.examples-serialize.php
+=======================================================
+<wddxPacket version='1.0'><header comment='PHP packet'/><data>
+<string>PHP to WDDX packet example</string></data></wddxPacket>
+
+<wddxPacket version='1.0'><header comment='PHP'/><data><struct>
+<var name='pi'><number>3.1415926</number></var><var name='cities'>
+<array length='3'><string>Austin</string><string>Novato</string>
+<string>Seattle</string></array></var></struct></data></wddxPacket>
+
+
+http://www.xml.com/pub/a/98/10/wddx21.html
+==========================================
+<!DOCTYPE wddxPacket SYSTEM "wddx.dtd">
+  <wddxPacket version='0.9'>
+    <header/>
+    <data>
+      <struct>
+        <var name='s'>
+          <string>a string</string>
+        </var>
+        <var name='n'>
+          <number>-12.456</number>
+        </var>
+        <var name='d'>
+          <dateTime>1998-06-12T04:32:12</dateTime>
+        </var>
+        <var name='b'>
+          <boolean value='true'/>
+        </var>
+        <var name='a'>
+          <array length='2'>
+            <number>10</number>
+            <string>second element</string>
+          </array>
+        </var>
+        <var name='obj'>
+          <struct>
+            <var name='s'>
+              <string>a string</string>
+            </var>
+            <var name='n'>
+              <number>-12.456</number>
+            </var>
+          </struct>
+        </var>
+      </struct><
+    </data>
+  </wddxPacket>
+
+
+http://en.wikipedia.org/wiki/WDDX
+=================================
+<wddxPacket version='1.0'>
+  <header comment='PHP'/>
+  <data>
+    <struct>
+      <var name='pi'>
+        <number>3.1415926</number>
+      </var>
+      <var name='cities'>
+        <array length='3'>
+          <string>Austin</string>
+          <string>Novato</string>
+          <string>Seattle</string>
+        </array>
+      </var>
+    </struct>
+  </data>
+</wddxPacket>
+
+
+http://www.infoloom.com/gcaconfs/WEB/chicago98/simeonov.HTM
+===========================================================
+
+
