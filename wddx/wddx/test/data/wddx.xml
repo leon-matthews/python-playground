@@ -1,0 +1,21 @@
+<wddxPacket version='1.0'>
+<header/>
+<data>
+<struct>
+    <var name='php_class_name'><string>blue_item</string></var>
+    <var name='carton_size'><string>12</string></var>
+    <var name='name'><string>8429</string></var>
+    <var name='category'><string>items</string></var>
+    <var name='sub_cat'><null/></var>
+    <var name='sub_sub_cat'><null/></var>
+    <var name='is_valid'><string>t</string></var>
+    <var name='id'><string>311</string></var>
+    <var name='full_name'><string>Magirita coupe</string></var>
+    <var name='thumbnail'><string>/uploaded/item/tn_1039133948.jpg</string></var>
+    <var name='photo'><string>/uploaded/item/1039133948.jpg</string></var>
+    <var name='short_desc'><string>266ml margarita glass</string></var>
+    <var name='long_desc'><null/></var>
+    <var name='price'><string>5.91</string></var>
+</struct>
+</data>
+</wddxPacket>

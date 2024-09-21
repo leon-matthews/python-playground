@@ -1,0 +1,35 @@
+<wddxPacket version='0.9'>
+<header/>
+<data>
+  <struct>
+    <var name='s'>
+      <string>a string</string>
+    </var>
+    <var name='n'>
+      <number>-12.456</number>
+    </var>
+    <var name='d'>
+      <dateTime>1998-06-12T04:32:12</dateTime>
+    </var>
+    <var name='b'>
+      <boolean value='true'/>
+    </var>
+    <var name='a'>
+      <array length='2'>
+        <number>10</number>
+        <string>second element</string>
+      </array>
+    </var>
+    <var name='obj'>
+      <struct>
+        <var name='s'>
+          <string>a string</string>
+        </var>
+        <var name='n'>
+          <number>-12.456</number>
+        </var>
+      </struct>
+    </var>
+  </struct>
+</data>
+</wddxPacket>
