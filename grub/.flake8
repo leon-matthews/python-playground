@@ -1,0 +1,5 @@
+
+[flake8]
+exclude=*/migrations/*.py
+max_complexity = 10
+max_line_length = 100
