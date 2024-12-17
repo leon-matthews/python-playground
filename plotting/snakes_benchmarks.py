@@ -51,9 +51,10 @@ DATA = (
     ("3.10",         141_423,  5_128),
     ("3.11",         184_631,  2_563),
     ("3.12",         200_844,  3_405),
-    ("3.13rc2",      201_045,  2_466),
-    ("+ JIT",        222_005,  7_117),
-    # ~ ("PyPy 7.3",   1_140_251, 44_726),
+    ("3.13.1",       212_323,  2_552),
+    ("3.13.1\n+ JIT",        224_245,  6_276),
+    ("3.14a3",       219_375,  1_136),
+    ("3.14a3\n+ JIT",        251_750,  5_121),
 )
 
 PYTHON_COLOURS = (
@@ -73,7 +74,7 @@ def plot(data):
 
     colours = (
         [PYTHON_COLOURS[3]] * 2 +
-        [PYTHON_COLOURS[1]] * 13 +
+        [PYTHON_COLOURS[1]] * 15 +
         [PYTHON_COLOURS[0]] * 2
     )
     x = data['version']
@@ -96,6 +97,7 @@ def plot(data):
 
     # Plot performance vs version
     axes.bar(x, y, color=colours, yerr=data['stderr'])
+    axes.tick_params(axis='x', labelrotation=90)
 
     # Line to where we caught up with v2.7 performance
     axes.annotate(
