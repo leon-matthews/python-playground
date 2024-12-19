@@ -11,7 +11,6 @@ See:
 """
 
 from pathlib import Path
-from pprint import pprint as pp
 import re
 import sys
 from subprocess import check_output
@@ -45,8 +44,9 @@ def main() -> int:
     try:
         branch = get_branch_name()
         prefix = extract_prefix(branch)
-        path = Path(sys.argv[1])
-        write_prefix(path, prefix)
+        if prefix is not None:          # Do nothing if branch regex fails
+            path = Path(sys.argv[1])
+            write_prefix(path, prefix)
     except Exception as e:
         message = "Error running 'prepare-commit-msg' hook script"
         print(f"{message}:\n{e}", file=sys.stderr)
