@@ -72,4 +72,8 @@ async def main(seconds: float) -> None:
 
 
 if __name__ == "__main__":
-    asyncio.run(main(1))
+    print("Starting asyncio loop")
+    started = time.perf_counter()
+    asyncio.run(main(1.0))
+    elapsed = time.perf_counter() - started
+    print(f"Finished in {elapsed:.3f}s")
